@@ -1,1 +1,0 @@
-# vk-hello-operator

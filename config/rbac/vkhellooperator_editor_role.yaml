@@ -1,0 +1,24 @@
+# permissions for end users to edit vkhellooperators.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: vkhellooperator-editor-role
+rules:
+- apiGroups:
+  - cache.example.com
+  resources:
+  - vkhellooperators
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - cache.example.com
+  resources:
+  - vkhellooperators/status
+  verbs:
+  - get

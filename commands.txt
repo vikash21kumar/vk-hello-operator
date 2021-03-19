@@ -1,0 +1,281 @@
+    1  cd (null); clear; pwd
+    2  cd /
+    3  touch test
+    4  ls -ltr
+    5  cd Users/
+    6  ls
+    7  cd vikashkumar/
+    8  ls
+    9  ls -ltr
+   10  go run helloWorld.go 
+   11  go run helloWorld.go 
+   12  go run helloWorld.go 
+   13  go run helloWorld.go 
+   14  go run helloWorld.go 
+   15  go run helloWorld.go 
+   16  go run helloWorld.go 
+   17  go run helloWorld.go 
+   18  go run helloWorld.go 
+   19  go version
+   20  ls -ltr
+   21  pwd
+   22  cd Documents/
+   23  ls -ltr
+   24  cd Go-projects/
+   25  ls -ltr
+   26  touch hello.go
+   27  vi hello.go 
+   28  go run hello.go 
+   29  go version
+   30  cd /Users/vikashkumar/go/
+   31  ls -ltr
+   32  cd pkg/
+   33  ls -ltr
+   34  cd mod/
+   35  ls -ltr
+   36  cd gopkg.in/
+   37  ls -ltr
+   38  cd yaml.v2\@v2.2.1/l
+   39  cd yaml.v2\@v2.2.1/
+   40  ls -ltr
+   41  ls -ltr
+   42  python
+   43  python -b
+   44  python -v
+   45  python
+   46  /Volumes/Seagate\ Backup\ Plus\ Drive/Mac-Book_Backup/Desktop/maven-hands-on ; exit;
+   47  which docker
+   48  which brew
+   49  docker run --name repo alpine/git clone https://github.com/docker/getting-started.git
+   50  docker cp repo:/git/getting-started/ .
+   51  cd getting-started 
+   52   docker build -t docker101tutorial . 
+   53  docker run -d -p 80:80 --name docker-tutorial docker101tutorial
+   54  docker tag docker101tutorial vikashforsrm/docker101tutorial 
+   55  docker push vikashforsrm/docker101tutorial
+   56  docker tag docker101tutorial vikashforsrm/docker101tutorial 
+   57  docker push vikashforsrm/docker101tutorial
+   58  docker exec -it 3605a27ed01fa0a2a14f1b07e0eb26dbc5ff62ab2f3e7849b4a2ec829828ff12 /bin/sh; exit
+   59  which docker
+   60  docker -v
+   61  docker pull mongo
+   62  docker run --name mongo-db -p 27017:27017 -d mongo:latest
+   63  which go
+   64  echo $HOME
+   65  pwd
+   66  mkdir go
+   67  cd go
+   68  ls -ltr
+   69  cd src/
+   70  ls -ltr
+   71  mkdir my-rest-api
+   72  cd my-rest-api/
+   73  go mod init my-rest-api
+   74  ls -ltr
+   75  cat go.mod 
+   76  touch main.go
+   77  go build
+   78  cat main.go 
+   79  vi main.go 
+   80  go build
+   81  vi main.go 
+   82  go build
+   83  vi main.go 
+   84  go build
+   85  ls -ltr
+   86  ./my-rest-api 
+   87  go get github.com/gofiber/fiber
+   88  got get go.mongodb.org/mongo-driver/mongo
+   89  go get go.mongodb.org/mongo-driver/mongo
+   90  ls -ltr
+   91  cat go.sum 
+   92  ls ltr
+   93  ls -ltr
+   94  which java
+   95  java -v
+   96  java -version
+   97  /usr/bin/java -v
+   98  /usr/bin/java -version
+   99  which java
+  100  java -v
+  101  java -version
+  102  pwd
+  103  go fmt
+  104  go fmt
+  105  ls -ltr
+  106  go build
+  107  ./my-rest-api 
+  108  docker exec -it 1230ee26653a4a1e1aa2e652eb6c18ad368bcd869a37d68a3a8c202faa2fa615 /bin/sh; exit
+  109  docker exec -it 1230ee26653a4a1e1aa2e652eb6c18ad368bcd869a37d68a3a8c202faa2fa615 /bin/sh; exit
+  110  pwd
+  111  echo $GOPATH
+  112  which go
+  113  cd /usr/local/go/bin
+  114  ls -ltr
+  115  pwd
+  116  mkdir test
+  117  sudo mkdir test
+  118  ls -ltr
+  119  rm -rf test/
+  120  sudo rm -rf test/
+  121  pwd
+  122  cd §
+  123  which go
+  124  cd ../../..
+  125  ls -ltr
+  126  pwd
+  127  cd local/
+  128  ls -ltr
+  129  cd -
+  130  echo $HOME
+  131  cd $HOME
+  132  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  133  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  134  brew update&& brew install golang
+  135  brew update && brew install golang
+  136  which brew
+  137  curl -o golang.pkg https://dl.google.com/go/go1.15.2.darwin-amd64.pkg
+  138  ls -ltr
+  139  pwd
+  140  open golang.pkg 
+  141  cd go
+  142  ls -ltr
+  143  cd src
+  144  ls -ltr
+  145  pwd
+  146  export GOPATH=/Users/vikashkumar/go
+  147  mkdir -p $GOPATH/src/github.com/operator-framework
+  148  cd $GOPATH/src/github.com/operator-framework
+  149  git clone https://github.com/operator-framework/operator-sdk
+  150  cd operator-sdk/
+  151  git checkout v0.4.0
+  152  make dep
+  153  ls -ltr
+  154  git branches
+  155  git branch
+  156  git checkout master
+  157  ls -ltr
+  158  brew
+  159  pwd
+  160  cd ../../../../..
+  161  pwd
+  162  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  163  brew
+  164  ls -ltr
+  165  cd go/src/
+  166  ls -ltr
+  167  pwd
+  168  cd ../..
+  169  ls -ltgr
+  170  rm golang.pkg 
+  171  brew install operator-sdk
+  172  brew install minikube
+  173  which minikube
+  174  minikube start
+  175  which kubectl
+  176  kubectl get po -A
+  177  minikube dashboard
+  178  pwd
+  179  pwd
+  180  cd go/src/
+  181  mkdir -p $HOME/go/src/memcached-operator
+  182  cd memcached-operator/
+  183  operator-sdk init --domain example.com --repo github.com/example/memcached-operator
+  184  minikube console
+  185  minikube dashboard
+  186  minikube stop
+  187  pwd
+  188  cd go/src/
+  189  ls -ltr
+  190  git clone https://github.com/vikash21kumar/vk-hello-operator.git
+  191  ls -ltr
+  192  cd vk
+  193  cd vk-hello-operator/
+  194  echo "# vk-hello-operator" >> README.md
+  195  git init
+  196  git add README.md
+  197  git commit -m "first commit"
+  198  git branch -M main
+  199  git remote add origin https://github.com/vikash21kumar/vk-hello-operator.git
+  200  git push -u origin main
+  201  touch .gitignore
+  202  vi .gitignore 
+  203  pwd
+  204  echo $GOPATH
+  205  GO111MODULE=on
+  206  GOPATH=$HOME/go
+  207  echo $GOPATH
+  208  go version
+  209  operator-sdk version
+  210  cd /Users/vikashkumar/go/src/vk-hello-operator/
+  211  operator-sdk init --domain example.com --repo github.com/example/memcached-operator
+  212  ls -ltr
+  213  pwd
+  214  rm README.md 
+  215  rm hack/
+  216  rm -rf hack/
+  217  rm main.go 
+  218  rm -r config/
+  219  ls -ltr
+  220  rm Makefile 
+  221  rm go.mod 
+  222  rm Dockerfile 
+  223  operator-sdk init --domain example.com --repo github.com/example/memcached-operator
+  224  ls -ltr
+  225  rm -r hack/ config/
+  226  rm Makefile 
+  227  rm go.mod 
+  228  rm Dockerfile 
+  229  rm main.go 
+  230  ls -ltr
+  231  ls -ltr
+  232  operator-sdk init --domain example.com --repo github.com/vikash21kumar/vk-hello-operator
+  233  ls -ltr
+  234  minikube stop
+  235  pwd
+  236  operator-sdk create api --group cache --version v1alpha1 --kind vk-hello-operator --resource --controller
+  237  operator-sdk create api --group cache --version v1alpha1 --kind Vk-hello-operator --resource --controller
+  238  operator-sdk create api --group cache --version v1alpha1 --kind Vk-hello-operator
+  239  operator-sdk create api --group cache --version v1alpha1 --kind VKHelloOperator
+  240  ls -ltr
+  241  cd api/v1alpha1/
+  242  ls -ltr
+  243  vi vkhellooperator_types.go 
+  244  pwd
+  245  ls ltr
+  246  pwd
+  247  cd ../..
+  248  ls -ltr
+  249  make generate
+  250  make manifests
+  251  ls -ltr
+  252  export USERNAME=vikashforsrm
+  253  docker login
+  254  make docker-build docker-push IMG=vikashforsrm/vk-hello-operator:v0.0.1
+  255  make docker-build docker-push IMG=vikashforsrm/vk-hello-operator:v0.0.1
+  256  clear
+  257  make docker-build docker-push IMG=vikashforsrm/vk-hello-operator:v0.0.1
+  258  make docker-build docker-push IMG=vikashforsrm/vk-hello-operator:v0.0.1
+  259  make docker-build docker-push IMG=vikashforsrm/vk-hello-operator:v0.0.1
+  260  docker info
+  261  systemctl start docker
+  262  start docker
+  263  docker start
+  264  sudo service docker start
+  265  ps -eaf | grep docker
+  266  docker info
+  267  docker login -u vikashforsrm -p Comeon2chat
+  268  docker status
+  269  docker login
+  270  docker login
+  271  docker info
+  272  make docker-build docker-push IMG=vikashforsrm/vk-hello-operator:v0.0.1
+  273  ls -ltr
+  274  vi PROJECT 
+  275  kubectl get all
+  276  make deploy IMG=vikashforsrm/vk-hello-operator:v0.0.1
+  277  pwd
+  278  kubectl apply -f config/samples/cache_v1alpha1_vkhellooperator.yaml 
+  279  kubectl apply -f config/samples/cache_v1alpha1_vkhellooperator.yaml 
+  280  kubectl apply -f config/samples/cache_v1alpha1_vkhellooperator.yaml 
+  281  history > commands.txt
